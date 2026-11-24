@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meras — Account Deletion Request | طلب حذف الحساب</title>
+<style>
+  :root { --primary: #1E40AF; --dark: #111827; --body: #1F2937; --muted: #6B7280; --bg: #F3F4F6; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Arabic", Arial, sans-serif; background: var(--bg); color: var(--body); line-height: 1.8; padding: 24px; }
+  .wrap { max-width: 720px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 32px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  h1 { color: var(--primary); font-size: 1.6rem; margin-bottom: 8px; }
+  .sub { color: var(--muted); margin-bottom: 24px; font-size: .95rem; }
+  .lang-toggle { display: flex; gap: 8px; margin-bottom: 20px; }
+  .lang-toggle button { padding: 6px 14px; border: 1px solid #D1D5DB; border-radius: 999px; background: #fff; cursor: pointer; font-size: .9rem; }
+  .lang-toggle button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+  .ar, .en { display: none; margin-bottom: 16px; }
+  .ar.active, .en.active { display: block; }
+  .ar { direction: rtl; text-align: right; }
+  .en { direction: ltr; text-align: left; }
+  .contact-box { background: #F9FAFB; border-radius: 10px; padding: 16px; margin-top: 8px; }
+  .contact-box a { color: var(--primary); font-weight: 700; text-decoration: none; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Meras (ميراس) — طلب حذف الحساب | Account Deletion Request</h1>
+  <div class="sub">Meras (com.ababeel.meras) · Ababeel Softwares</div>
+  <div class="lang-toggle">
+    <button class="active" onclick="document.querySelector('.ar').classList.add('active');document.querySelector('.en').classList.remove('active');this.classList.add('active');this.nextElementSibling.classList.remove('active')">العربية</button>
+    <button onclick="document.querySelector('.ar').classList.remove('active');document.querySelector('.en').classList.add('active');this.classList.add('active');this.previousElementSibling.classList.remove('active')">English</button>
+  </div>
+
+  <div class="ar">
+    <p>لطلب حذف حسابك وجميع البيانات المرتبطة به من تطبيق ميراس، تواصل معنا عبر البريد الإلكتروني:</p>
+    <div class="contact-box">
+      <p>📧 <a href="mailto:ababeel.ly@gmail.com?subject=Meras%20Account%20Deletion%20Request">ababeel.ly@gmail.com</a></p>
+    </div>
+    <p>عند تلقي طلبك، س:</p>
+    <ul>
+      <li>حذف حسابك وجميع البيانات المرتبطة به (الاسم، رقم الهاتف، البريد الإلكتروني، محتوى الاستشارات وال/issues، والرسائل).</li>
+      <li>الاحتفاظ بالRegistries الضريبية والقانونية إذا اقتضى القانون.</li>
+      <li>الرد لك خلال 30 يومًا من تلقي الطلب.</li>
+    </ul>
+  </div>
+
+  <div class="en">
+    <p>To request deletion of your account and all associated data from the Meras app, contact us by email:</p>
+    <div class="contact-box">
+      <p>📧 <a href="mailto:ababeel.ly@gmail.com?subject=Meras%20Account%20Deletion%20Request">ababeel.ly@gmail.com</a></p>
+    </div>
+    <p>Once we receive your request, we will:</p>
+    <ul>
+      <li>Delete your account and all associated data (name, phone number, email address, consultation/case content, and messages).</li>
+      <li>Retain only the records required by law (e.g., financial/tax/legal retention obligations).</li>
+      <li>Respond to you within 30 days of receiving the request.</li>
+    </ul>
+  </div>
+
+  <footer>© 2026 Meras (ميراس) — Ababeel Softwares. جميع الحقوق محفوظة | All Rights Reserved.</footer>
+</div>
+</body>
+</html>
